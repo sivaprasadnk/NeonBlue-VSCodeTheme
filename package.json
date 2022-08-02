@@ -1,0 +1,28 @@
+{
+  "name": "neon-blue",
+  "displayName": "Neon Blue",
+  "description": "Simple NeonBlue theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.69.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "publisher": "SivaprasadNK",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/sivaprasadnk/NeonBlue-VSCodeTheme.git"
+
+  },
+
+  "contributes": {
+    "themes": [
+      {
+        "label": "Neon Blue",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Neon Blue-color-theme.json"
+      }
+    ]
+  }
+}
